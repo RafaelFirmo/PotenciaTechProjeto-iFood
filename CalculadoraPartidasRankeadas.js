@@ -6,7 +6,7 @@ function calcularSaldo(vitorias, derrotas) {
 
     if (saldo <= 10) {
         nivel = "Ferro";
-} else if (saldo >= 11 && saldo <= 20) {
+   } else if (saldo >= 11 && saldo <= 20) {
         nivel = "Bronze";
 
     } else if (saldo >= 21 && saldo <= 50) {
